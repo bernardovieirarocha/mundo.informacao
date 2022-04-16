@@ -51,7 +51,7 @@ export default function Home() {
 
                 <p className={styles.description}>Fontes Blibiográficas </p>
 
-                <div className={styles.grid}>         
+                <div className={styles.grid}>
                     <div className={styles.card}>
                         <a
                             className={styles.h2}
@@ -74,7 +74,6 @@ export default function Home() {
                                         href="https://www.politifact.com/factchecks/2022/mar/03/russian-embassy-canada/russias-pants-fire-claim-it-not-occupying-ukrainia/"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Fonte Primária.
                                     </a>
@@ -82,7 +81,6 @@ export default function Home() {
                                         href="https://english.elpais.com/international/2022-02-26/how-to-justify-a-war-putins-arguments-for-invading-ukraine.html"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Notícia que desmente a fake news.
                                     </a>
@@ -90,7 +88,6 @@ export default function Home() {
                                         href="https://www.nexojornal.com.br/podcast/2022/03/10/Invas%C3%A3o-russa-na-Ucr%C3%A2nia-o-rep%C3%BAdio-aos-crimes-de-guerra"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Repúdio a invasão.
                                     </a>
@@ -98,7 +95,6 @@ export default function Home() {
                                         href="https://www.cnnbrasil.com.br/internacional/tudo-o-que-voce-precisa-saber-sobre-crimes-de-guerra-e-como-putin-pode-ser-processado/"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Putin e os crimes de guerra.
                                     </a>
@@ -106,7 +102,6 @@ export default function Home() {
                                         href="https://www.cartacapital.com.br/mundo/eua-afirmam-que-ha-relatos-bastante-criveis-de-crimes-de-guerra-da-russia-na-ucrania/"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Provas sobre os crimes de guerra.
                                     </a>
@@ -114,7 +109,6 @@ export default function Home() {
                                         href="https://g1.globo.com/mundo/noticia/2022/02/25/desnazificar-a-ucrania-a-historia-por-tras-de-justificativa-de-putin-para-invasao.ghtml"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Argumentos usados por Putin e reforçado
                                         pelo governo.
@@ -146,7 +140,6 @@ export default function Home() {
                                         href="https://amp.marca.com/en/lifestyle/world-news/2022/02/26/6219757d22601d2e038b45bf.html"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Notícias que tentam confirmar a
                                         existência do piloto.
@@ -155,7 +148,6 @@ export default function Home() {
                                         href="https://www.istoedinheiro.com.br/fantasma-de-kiev-mito-ou-verdade/"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Notícias que desmentem o fantasma(1).
                                     </a>
@@ -163,7 +155,6 @@ export default function Home() {
                                         href="https://gauchazh.clicrbs.com.br/mundo/noticia/2022/03/ex-presidente-da-ucrania-compartilha-foto-do-suposto-ghost-of-kiev-cl08arvzc003d01656ga2tk21.html"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Notícias que desmentem o fantasma(2).
                                     </a>
@@ -189,7 +180,6 @@ export default function Home() {
                                         href="https://ucr.fbi.gov/crime-in-the-u.s/2015/crime-in-the-u.s.-2015/tables/expanded_homicide_data_table_6_murder_race_and_sex_of_vicitm_by_race_and_sex_of_offender_2015.xls"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Dados - Censo do FBI
                                     </a>
@@ -197,7 +187,6 @@ export default function Home() {
                                         href="https://guides.library.pdx.edu/c.php?g=625347&p=4386301"
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
-
                                     >
                                         Portland State University
                                     </a>
@@ -274,6 +263,30 @@ export default function Home() {
                                     </a>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className={styles.card}>
+                        <a
+                            className={styles.h2}
+                            data-bs-toggle="collapse"
+                            href="#dadosforms"
+                            aria-expanded="false"
+                            aria-controls="dadosforms"
+                        >
+                            Dados obtidos no questionário &rarr;
+                        </a>
+                        <div className="collapse" id="dadosforms">
+                            <img src="/graph1.png" className="img-fluid" />
+                            <img src="/graph2.png" className="img-fluid" />
+                            <img src="/graph3.png" className="img-fluid" />
+                            <img src="/graph4.png" className="img-fluid" />
+                            <img src="/graph5.png" className="img-fluid" />
+                            <img src="/graph6.png" className="img-fluid" />
+                            <img src="/graph7.png" className="img-fluid" />
+                            <img src="/graph8.png" className="img-fluid" />
+                            <img src="/graph9.png" className="img-fluid" />
+                            <img src="/graph10.png" className="img-fluid" />
+                            <img src="/graph11.png" className="img-fluid" />
                         </div>
                     </div>
                 </div>
