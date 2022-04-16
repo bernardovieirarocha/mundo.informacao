@@ -30,14 +30,20 @@ export default function Home() {
             </Head>
 
             <main className={styles.main}>
-                <h1 className={styles.title}>
+                <div className={styles.blurbox}></div>
+                <div className={styles.blurboxbottom}></div>
+                {/* <h1 className={styles.title}>
                     <a
                         className={styles.title}
                         href="https://www.instagram.com/mundo.informacao/"
                     >
                         Mundo Informação
                     </a>
-                </h1>
+                </h1> */}
+
+                <a className={styles.logotypebox} href="https://www.instagram.com/mundo.informacao/">
+                    <img className={styles.logotype} src={"/logo.png"} />
+                </a>         
 
                 <p className={styles.description}>Fontes Blibiográficas </p>
 
