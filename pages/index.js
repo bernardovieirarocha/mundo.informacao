@@ -261,7 +261,7 @@ export default function Home() {
                             aria-expanded="false"
                             aria-controls="rainhadainglaterra"
                         >
-                            London Bridge has fallen &rarr;
+                            London Bridge is down &rarr;
                         </a>
                         <div className="collapse" id="rainhadainglaterra">
                             <div className="card card-body border-0">
