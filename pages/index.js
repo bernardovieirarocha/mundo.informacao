@@ -1,7 +1,10 @@
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Script from "next/script";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faListDots } from "@fortawesome/free-solid-svg-icons";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 export default function Home() {
     return (
@@ -40,7 +43,6 @@ export default function Home() {
                         Mundo Informação
                     </a>
                 </h1> */}
-
                 <a
                     className={styles.logotypebox}
                     target="_blank"
@@ -51,7 +53,17 @@ export default function Home() {
                 </a>
 
                 <p className={styles.description}>Fontes Blibiográficas </p>
-
+                <div>
+                    <FontAwesomeIcon icon={faListDots} size="1x" />{" "}
+                    <a
+                        className={styles.formslinks}
+                        href="https://forms.gle/h4wQhVLk4DZcQEKe6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Formulário
+                    </a>
+                </div>
                 <div className={styles.grid}>
                     <div className={styles.card}>
                         <a
@@ -76,7 +88,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Fonte Primária.
                                     </a>
@@ -85,7 +96,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Notícia que desmente a fake news.
                                     </a>
@@ -94,7 +104,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Repúdio a invasão.
                                     </a>
@@ -103,7 +112,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Putin e os crimes de guerra.
                                     </a>
@@ -112,7 +120,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Provas sobre os crimes de guerra.
                                     </a>
@@ -121,7 +128,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Argumentos usados por Putin e reforçado
                                         pelo governo.
@@ -154,7 +160,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Notícias que tentam confirmar a
                                         existência do piloto.
@@ -164,7 +169,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Notícias que desmentem o fantasma(1).
                                     </a>
@@ -173,7 +177,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Notícias que desmentem o fantasma(2).
                                     </a>
@@ -200,7 +203,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Dados - Censo do FBI
                                     </a>
@@ -209,7 +211,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Portland State University
                                     </a>
@@ -243,7 +244,6 @@ export default function Home() {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                         href="https://www.bbc.com/portuguese/salasocial-60591479"
                                         className="list-group-item list-group-item-action"
                                     >
@@ -276,7 +276,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Artigo falando sobre.
                                     </a>
@@ -285,7 +284,6 @@ export default function Home() {
                                         className="list-group-item list-group-item-action"
                                         target="_blank"
                                         rel="noopener noreferrer"
-
                                     >
                                         Matéria e jornal que não se retrata após
                                         o ocorrido.

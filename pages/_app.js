@@ -2,6 +2,7 @@ import "../styles/globals.css";
 import Script from "next/script";
 import Head from "next/head";
 
+
 function MyApp({ Component, pageProps }) {
     return (
         <>
@@ -16,7 +17,6 @@ function MyApp({ Component, pageProps }) {
                     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
                     crossOrigin="true"
                 ></link>
-                
             </Head>
             <Component {...pageProps} />
         </>
