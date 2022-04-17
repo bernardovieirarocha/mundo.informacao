@@ -285,7 +285,7 @@ export default function Home() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Matéria e jornal que não se retrata após
+                                        Matéria e jornal que tenta se retratar após
                                         o ocorrido.
                                     </a>
                                 </div>
