@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/mundoInfo.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faListDots } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -285,8 +285,8 @@ export default function mundoInfo() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                        Matéria e jornal que tenta se retratar após
-                                        o ocorrido.
+                                        Matéria e jornal que tenta se retratar
+                                        após o ocorrido.
                                     </a>
                                 </div>
                             </div>
