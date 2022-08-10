@@ -69,7 +69,7 @@ export default function Home() {
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
-                                       Abrapsa
+                                        Abrapsa
                                     </a>
                                     <a
                                         href="https://youtu.be/zumjSnAUSuc"
@@ -232,10 +232,18 @@ export default function Home() {
                                     <a
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        href="https://www.napratica.org.br/o-que-e-a-uberizacao-do-trabalho/amp/"
+                                        href="https://www.oracle.com/br/artificial-intelligence/what-is-ai/"
                                         className="list-group-item list-group-item-action"
                                     >
-                                        Matéria que evidencia o acontecimento
+                                        O que é IA
+                                    </a>
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://jornal.usp.br/ciencias/quais-as-vantagens-e-desvantagens-da-inteligencia-artificial-na-sociedade/"
+                                        className="list-group-item list-group-item-action"
+                                    >
+                                       Vantagens e desvantagens
                                     </a>
                                 </div>
                             </div>
