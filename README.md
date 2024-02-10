@@ -1,7 +1,7 @@
-Mundo Informação
+# Mundo Informação
 
 Welcome to the Mundo Informação GitHub repository! This project originated as a school assignment aimed at creating a bibliographic resource for each section of a presentation. The primary objectives were to gain familiarity with NEXT.js and to provide an alternative to paid linktree applications.
-Key Features:
+## Key Features:
 
     Bibliographic Resources: Mundo Informação serves as a comprehensive bibliographic repository, organizing resources corresponding to different sections of a presentation. Users can easily access relevant sources and references for further exploration and study.
 
@@ -9,7 +9,7 @@ Key Features:
 
     Cost-effective Alternative: By creating a custom solution rather than relying on paid linktree applications, Mundo Informação demonstrates a cost-effective approach to organizing and sharing resources online.
 
-Usage:
+## Usage:
 
 Whether you're a student seeking to organize bibliographic references for a presentation or a developer looking to explore NEXT.js capabilities, Mundo Informação offers valuable insights and practical examples. Feel free to explore the codebase, experiment with its features, and adapt the project to suit your specific needs.
 Note:
